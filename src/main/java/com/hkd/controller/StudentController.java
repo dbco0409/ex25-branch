@@ -25,47 +25,47 @@ public class StudentController {
 	private final StudentService studentService;
 	
 	@GetMapping()
-	public String studentAllList(@RequestParam(defaultValue = "1") int page,@RequestParam(defaultValue = "5") int size, Model model) {
-		PageHelper.startPage(page, size);
-		List<Student> students = studentService.StudentAllList();
+	public String list(@RequestParam(defaultValue = "1") int page,@RequestParam(defaultValue = "5") int size, Model model) {
+	    PageHelper.startPage(page, size);
+	    List<Student> students = studentService.AllStudent();
 	    PageInfo<Student> pageInfo = new PageInfo<>(students);
-	    int stuCnt = studentService.getCountStudent();
-	    
-		model.addAttribute("students", students);
-		model.addAttribute("pageInfo", pageInfo);
-		model.addAttribute("pageSize", stuCnt);
-		
-		return "student/list";
+
+	    model.addAttribute("students", students);
+	    model.addAttribute("pageInfo", pageInfo);
+
+	    return "student/list";
 	}
 	
 	@GetMapping("/new")
-	public String registStudent(Model model) {
+	public String studentCreate(Model model) {
 		Student stu = new Student();
 		model.addAttribute("student", stu);
 		return "student/form";
 	}
 	
-	@PostMapping("/")
-	public String registStudent(@ModelAttribute Student student) {
-		studentService.StudentCreate(student);
+	@PostMapping()
+	public String studentCreate(@ModelAttribute Student student) {
+		studentService.studentCreate(student);
 		return "redirect:/students";
 	}
 	
 	@GetMapping("/{id}/edit")
-	public String updateStudent(@PathVariable int id, Model model) {
-		model.addAttribute("student", studentService.getStudent(id));
+	public String studentUpdate(@PathVariable int id, Model model) {
+		Student stu = studentService.getStudent(id);
+		model.addAttribute("student", stu);
 		return "student/form";
 	}
 	
 	@PostMapping("/{id}")
-	public String updateStudentPost(@ModelAttribute Student student, Model model) {
-		studentService.StudentUpdate(student);
+	public String studentUpdatePost(@ModelAttribute Student student) {
+		studentService.studentUpdate(student);
 		return "redirect:/students";
 	}
 	
 	@PostMapping("/{id}/delete")
-	public String deleteStudent(@PathVariable int id) {
+	public String studentDelete(@PathVariable int id) {
 		studentService.studentDelete(id);
 		return "redirect:/students";
 	}
+	
 }

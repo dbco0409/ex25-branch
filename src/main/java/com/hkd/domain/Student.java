@@ -12,5 +12,4 @@ public class Student {
 	private int age;
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;
-	
 }

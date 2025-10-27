@@ -12,37 +12,31 @@ import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor
 public class StudentService {
-	private final StudentMapper studentMapper; 
-	public List<Student> StudentAllList(){
-		return studentMapper.studentAllList();
+	private final StudentMapper studentMapper;
+	
+	public List<Student> AllStudent(){
+		return studentMapper.getAllStudent();
 	}
 	
-	public Student getStudent(int id){
+	public Student getStudent(int id) {
 		return studentMapper.getStudent(id);
 	}
 	
-	public int getCountStudent(){
-		return studentMapper.studentCount();
-	}
-	
-	public void StudentCreate(Student stu) {
+	public void studentCreate(Student stu) {
 		stu.setName(stu.getName());
 		stu.setEmail(stu.getEmail());
 		stu.setAge(stu.getAge());
-		studentMapper.studentCreate(stu);;
+		studentMapper.createStudent(stu);
 	}
 	
-	public void StudentUpdate(Student stu) {
-		stu.setId(stu.getId());
+	public void studentUpdate(Student stu) {
 		stu.setName(stu.getName());
 		stu.setEmail(stu.getEmail());
 		stu.setAge(stu.getAge());
-		studentMapper.studentUpdate(stu);
+		studentMapper.updateStudent(stu);
 	}
 	
 	public void studentDelete(int id) {
-		studentMapper.studentDelete(id);
+		studentMapper.deleteStudent(id);
 	}
-	
-	
 }

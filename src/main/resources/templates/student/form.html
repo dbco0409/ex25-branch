@@ -72,9 +72,9 @@
 
 <body>
 	<div class="form-container">
-		<h1 th:text="${student.id != null ? '학생 수정' : '학생 등록'}">학생 등록</h1>
+		<h1 th:text="${student.id != null  && student.id != 0 ? '학생 수정' : '학생 등록'}">학생 등록</h1>
 
-		<form th:action="${student.id != 0 ? '/students/' + student.id : '/students'}" th:object="${student}"
+		<form th:action="${student.id != null && student.id != 0 ? '/students/' + student.id : '/students'}" th:object="${student}"
 			method="post">
 
 			<div class="form-group">
