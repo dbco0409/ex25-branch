@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ex-ch03
+
+# 로그 레벨 설정
+logging:
+  level:
+    root: info
+    com.example.demo: debug
+    com.example.demo.service: debug
+
+# 로그 파일 저장
+file:
+  name: logs/app.log
+
