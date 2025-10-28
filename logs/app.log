@@ -1,0 +1,602 @@
+2025-10-16T15:00:10.168+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:00:10.171+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:00:10.208+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-16T15:00:10.208+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-16T15:00:10.948+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:00:10.960+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:00:10.961+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:00:11.003+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:00:11.003+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 795 ms
+2025-10-16T15:00:11.317+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:00:11.342+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:00:11.357+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 1.578 seconds (process running for 2.279)
+2025-10-16T15:00:24.304+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-16T15:00:24.304+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-16T15:00:24.305+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-16T15:00:24.336+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] com.example.demo.service.ExService       : 안녕 좋은날
+2025-10-16T15:00:24.336+09:00 DEBUG 7764 --- [ex-ch03] [http-nio-8090-exec-1] com.example.demo.service.ExService       : 안녕 좋은날
+2025-10-16T15:00:24.337+09:00  WARN 7764 --- [ex-ch03] [http-nio-8090-exec-1] com.example.demo.service.ExService       : 안녕 좋은날
+2025-10-16T15:00:24.337+09:00 ERROR 7764 --- [ex-ch03] [http-nio-8090-exec-1] com.example.demo.service.ExService       : 안녕 좋은날
+2025-10-16T15:01:52.526+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-16T15:01:52.528+09:00  INFO 7764 --- [ex-ch03] [Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:01:52.531+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:01:52.621+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:01:52.621+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:01:52.768+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:01:52.768+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:01:52.768+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:01:52.798+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:01:52.799+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
+2025-10-16T15:01:52.864+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:01:52.869+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:01:52.871+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.278 seconds (process running for 103.792)
+2025-10-16T15:01:52.872+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:02:07.587+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-16T15:02:07.588+09:00  INFO 7764 --- [ex-ch03] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:02:07.590+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:02:07.674+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:02:07.675+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:02:07.810+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:02:07.811+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:02:07.811+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:02:07.837+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:02:07.837+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 158 ms
+2025-10-16T15:02:07.896+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:02:07.902+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:02:07.904+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.244 seconds (process running for 118.824)
+2025-10-16T15:02:07.904+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:02:10.350+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-16T15:02:10.351+09:00  INFO 7764 --- [ex-ch03] [Thread-9] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:02:10.353+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:02:10.430+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:02:10.431+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:02:10.563+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:02:10.563+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:02:10.563+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:02:10.589+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:02:10.589+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2025-10-16T15:02:10.636+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:02:10.654+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:02:10.657+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.24 seconds (process running for 121.578)
+2025-10-16T15:02:10.658+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:02:26.336+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-16T15:02:26.337+09:00  INFO 7764 --- [ex-ch03] [Thread-13] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:02:26.339+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:02:26.409+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:02:26.410+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:02:26.544+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:02:26.545+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:02:26.545+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:02:26.570+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:02:26.570+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2025-10-16T15:02:26.615+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:02:26.620+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:02:26.622+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.238 seconds (process running for 137.543)
+2025-10-16T15:02:26.622+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:02:39.290+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-16T15:02:39.291+09:00  INFO 7764 --- [ex-ch03] [Thread-17] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:02:39.293+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:02:39.357+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:02:39.358+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:02:39.474+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:02:39.474+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:02:39.474+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:02:39.498+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:02:39.498+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 139 ms
+2025-10-16T15:02:39.542+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:02:39.560+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:02:39.562+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.217 seconds (process running for 150.483)
+2025-10-16T15:02:39.563+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:02:46.076+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-16T15:02:46.077+09:00  INFO 7764 --- [ex-ch03] [Thread-21] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:02:46.079+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:02:46.141+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:02:46.141+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:02:46.254+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:02:46.255+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:02:46.255+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:02:46.278+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:02:46.279+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2025-10-16T15:02:46.320+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:02:46.324+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:02:46.325+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.196 seconds (process running for 157.246)
+2025-10-16T15:02:46.326+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:03:16.221+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-16T15:03:16.222+09:00  INFO 7764 --- [ex-ch03] [Thread-25] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:03:16.224+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:03:16.302+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:03:16.303+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:03:16.430+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:03:16.430+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:03:16.430+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:03:16.443+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:03:16.443+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 140 ms
+2025-10-16T15:03:16.460+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'calculatorController2': Lookup method resolution failed
+2025-10-16T15:03:16.460+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-16T15:03:16.463+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-16T15:03:16.474+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'calculatorController2': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.CalculatorController2] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4f52e5f5]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.2.11.jar:6.2.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.2.11.jar:6.2.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: CalculationResponse
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.2.11.jar:6.2.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: CalculationResponse
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 30 common frames omitted
+
+2025-10-16T15:03:31.003+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:03:31.003+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:03:31.132+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:03:31.133+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:03:31.134+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:03:31.146+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:03:31.146+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 142 ms
+2025-10-16T15:03:31.163+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'calculatorController2': Lookup method resolution failed
+2025-10-16T15:03:31.163+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-16T15:03:31.165+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-16T15:03:31.167+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'calculatorController2': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.CalculatorController2] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5a95a6da]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.2.11.jar:6.2.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.2.11.jar:6.2.11]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: CalculationResponse
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.2.11.jar:6.2.11]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: CalculationResponse
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 30 common frames omitted
+
+2025-10-16T15:03:34.623+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:03:34.623+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:03:34.761+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:03:34.762+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:03:34.762+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:03:34.787+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:03:34.787+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 163 ms
+2025-10-16T15:03:34.792+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'calculatorController2': Resolution of declared constructors on bean Class [com.example.demo.CalculatorController2] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6cdcae9d] failed
+2025-10-16T15:03:34.792+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-16T15:03:34.794+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-16T15:03:34.796+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'calculatorController2': Resolution of declared constructors on bean Class [com.example.demo.CalculatorController2] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6cdcae9d] failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:384) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: java.lang.NoClassDefFoundError: CalculatorService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2727) ~[na:na]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:379) ~[spring-beans-6.2.11.jar:6.2.11]
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: CalculatorService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 27 common frames omitted
+
+2025-10-16T15:03:40.284+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:03:40.284+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:03:40.291+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:03:40.304+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.example.demo.calculator.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
+2025-10-16T15:03:52.824+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:03:52.824+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:03:52.842+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:03:52.844+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.example.demo.calculator.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
+2025-10-16T15:03:56.305+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:03:56.306+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:03:56.316+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:03:56.326+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.example.demo.calculator.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
+2025-10-16T15:04:05.798+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:04:05.798+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:04:05.803+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:04:05.817+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.example.demo.calculator.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
+2025-10-16T15:04:09.254+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:04:09.267+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:04:09.388+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:04:09.388+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:04:09.388+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:04:09.412+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:04:09.412+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 144 ms
+2025-10-16T15:04:09.452+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:04:09.456+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:04:09.457+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.216 seconds (process running for 240.378)
+2025-10-16T15:04:09.458+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:06:51.869+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-16T15:06:51.870+09:00  INFO 7764 --- [ex-ch03] [Thread-29] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:06:51.872+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:06:51.953+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:06:51.954+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:06:52.095+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:06:52.108+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:06:52.108+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:06:52.121+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:06:52.121+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 166 ms
+2025-10-16T15:06:52.187+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:06:52.192+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:06:52.194+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.254 seconds (process running for 403.115)
+2025-10-16T15:06:52.195+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:07:00.482+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-16T15:07:00.482+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-16T15:07:00.483+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-16T15:08:03.908+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-16T15:08:03.909+09:00  INFO 7764 --- [ex-ch03] [Thread-50] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:08:03.911+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:08:03.991+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:08:03.991+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:08:04.148+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-16T15:08:04.150+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T15:08:04.150+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-16T15:08:04.162+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-16T15:08:04.162+09:00  INFO 7764 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+2025-10-16T15:08:04.228+09:00  WARN 7764 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-16T15:08:04.233+09:00  INFO 7764 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-16T15:08:04.236+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.26 seconds (process running for 475.157)
+2025-10-16T15:08:04.237+09:00  INFO 7764 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-16T15:08:14.004+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-16T15:08:14.004+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-16T15:08:14.004+09:00  INFO 7764 --- [ex-ch03] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-16T15:10:48.865+09:00  INFO 7764 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-16T15:10:48.866+09:00  INFO 7764 --- [ex-ch03] [Thread-54] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-16T15:10:48.868+09:00  INFO 7764 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-16T15:10:48.950+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:10:48.950+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:10:48.970+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:10:48.972+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:14) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.skc.calculator2.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.calculator.service.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
+2025-10-16T15:11:38.277+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 7764 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:11:38.278+09:00  INFO 7764 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:11:38.283+09:00  WARN 7764 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:11:38.285+09:00 ERROR 7764 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:12) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.skc.calculator2.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.calculator.service.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
+2025-10-16T15:11:57.665+09:00  INFO 8544 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 8544 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:11:57.666+09:00  INFO 8544 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:11:57.712+09:00  INFO 8544 --- [ex-ch03] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-16T15:11:57.715+09:00  INFO 8544 --- [ex-ch03] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-16T15:11:57.799+09:00  WARN 8544 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:11:57.854+09:00 ERROR 8544 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:12) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.skc.calculator2.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.calculator.service.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
+2025-10-16T15:12:39.514+09:00  INFO 16088 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 16088 (D:\s09_springboot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springboot\day02_1013\ex-ch03)
+2025-10-16T15:12:39.515+09:00  INFO 16088 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T15:12:39.553+09:00  INFO 16088 --- [ex-ch03] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-16T15:12:39.554+09:00  INFO 16088 --- [ex-ch03] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-16T15:12:39.666+09:00  WARN 16088 --- [ex-ch03] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+2025-10-16T15:12:39.693+09:00 ERROR 16088 --- [ex-ch03] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.ExCh03Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.ExCh03Application.main(ExCh03Application.java:12) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'calculatorService' for bean class [com.skc.calculator2.service.CalculatorService] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.calculator.service.CalculatorService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.11.jar:6.2.11]
+	... 16 common frames omitted
+
