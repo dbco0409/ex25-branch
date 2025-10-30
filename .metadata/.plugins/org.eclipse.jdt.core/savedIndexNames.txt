@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+C:\Users\user\Downloads\ex-ch03-main\ex-ch03\ex25-branch\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

@@ -1,17 +1,28 @@
+<<<<<<< HEAD
 package com.skc.mybatis.service;
+=======
+package com.hkd.service;
+>>>>>>> develop
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+<<<<<<< HEAD
 import org.springframework.transaction.annotation.Transactional;
 
 import com.skc.mybatis.domain.Student;
 import com.skc.mybatis.mapper.StudentMapper;
+=======
+
+import com.hkd.domain.Student;
+import com.hkd.mapper.StudentMapper;
+>>>>>>> develop
 
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
+<<<<<<< HEAD
 @Transactional(readOnly = true)
 public class StudentService {
 
@@ -47,4 +58,34 @@ public class StudentService {
 		studentMapper.delete(id);
 	}
 
+=======
+public class StudentService {
+	private final StudentMapper studentMapper;
+	
+	public List<Student> AllStudent(){
+		return studentMapper.getAllStudent();
+	}
+	
+	public Student getStudent(int id) {
+		return studentMapper.getStudent(id);
+	}
+	
+	public void studentCreate(Student stu) {
+		stu.setName(stu.getName());
+		stu.setEmail(stu.getEmail());
+		stu.setAge(stu.getAge());
+		studentMapper.createStudent(stu);
+	}
+	
+	public void studentUpdate(Student stu) {
+		stu.setName(stu.getName());
+		stu.setEmail(stu.getEmail());
+		stu.setAge(stu.getAge());
+		studentMapper.updateStudent(stu);
+	}
+	
+	public void studentDelete(int id) {
+		studentMapper.deleteStudent(id);
+	}
+>>>>>>> develop
 }
